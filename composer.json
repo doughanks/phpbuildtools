@@ -1,0 +1,36 @@
+{
+    "name": "PHP Build Tools",
+    "description": "Standard build processes for PHP applications. PHP version 5.5",
+    "version": "0.0.0",
+
+    "repositories": [
+        {
+            "type": "composer", 
+            "url": "https://packagist.org" 
+        },
+
+        { "packagist": false }
+    ],
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "phploc/phploc": "~2.1",
+        "phpmd/phpmd": "dev-master",
+        "squizlabs/php_codesniffer": "dev-master",
+        "sebastian/phpcpd": "dev-master",
+        "sebastian/phpdcd": "dev-master",
+        "codeception/codeception": "dev-master",
+        "phpdocumentor/phpdocumentor": "dev-master",
+        "pdepend/pdepend": "dev-master",
+        "wimg/php-compatibility": "dev-master",
+		"codeception/phpbuiltinserver": "*",
+		"codeception/verify": "*",
+		"codeception/specify": "*",
+		"monolog/monolog": "*",
+		"phpseclib/phpseclib": "*"
+    },
+
+    "config": {
+        "optimize-autoloader": true
+    }
+}
